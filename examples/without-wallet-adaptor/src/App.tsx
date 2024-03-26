@@ -5,7 +5,7 @@ import * as web3 from '@solana/web3.js';
 import { useState } from 'react';
 
 function App() {
-    const connection = new web3.Connection('<RPC URL>');
+    const connection = new web3.Connection('https://mainnet.helius-rpc.com/?api-key=3fa7b09a-0f43-469a-a640-368f2ad29afe');
     const [provider, setProvider] = useState<any>(null);
     
     const getProvider = async (): Promise<any> => {
