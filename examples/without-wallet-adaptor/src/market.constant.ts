@@ -20,20 +20,20 @@ export const marketPairs: SwapMarket[] =[
         swapMargin: 0.0004
     },
     {
-        address: new PublicKey('Hs97TCZeuYiJxooo3U73qEHXg3dKpRL4uYKYRryEK9CF'),
+        address: new PublicKey('FF2cofkAp3ELzd2KQtugxstDfw9TkGqEBJmGxPtB3hVU'),
         base: {
             name: "BONK",
-            logo: "https://img.api.cryptorank.io/coins/bonk1672306100278.png",
-            mint: new PublicKey('DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263'),
-            vault: new PublicKey('AVnL1McPPrn1dZyHGThwXzwYaHBp6sxB44vXoETPqH45'),
+            logo: "https://i.imgur.com/5raCsaq.png",
+            mint: new PublicKey('6zz62u9yEoZTe2efnnCyyHx5UUaPiThCngVxdYi8i4ix'),
+            vault: new PublicKey('EdukFLbSRoMyVreLYiZAGMccNNN9VDmgWXnk5PNu85iK'),
         },
         quote: {
             name: "SOL",
-            logo: "https://img.api.cryptorank.io/coins/solana1606979093056.png",
+            logo: "https://i.imgur.com/3mrpE3x.png",
             mint: new PublicKey('So11111111111111111111111111111111111111112'),
-            vault: new PublicKey('8KftabityJoWgvUb6wwAPZww8mYmLq8WTMuQGGPoGiKM'),
+            vault: new PublicKey('FERjPVNEa7Udq8CEv68h6tPL46Tq7ieE49HrE2wea3XT'),
         },
-        minBase: 1000,
+        minBase: 1,
         swapMargin: 0.0004
     },
 ]
