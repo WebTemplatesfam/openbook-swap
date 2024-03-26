@@ -5,9 +5,9 @@ export const marketPairs: SwapMarket[] =[
     {
         address: new PublicKey('8PhnCfgqpgFM7ZJvttGdBVMXHuU4Q23ACxCvWkbs1M71'),
         base: {
-            name: "BONK",
-            logo: "https://img.api.cryptorank.io/coins/bonk1672306100278.png",
-            mint: new PublicKey('DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263'),
+            name: "CAPY",
+            logo: "https://i.imgur.com/FAsGdjU.png",
+            mint: new PublicKey('6zz62u9yEoZTe2efnnCyyHx5UUaPiThCngVxdYi8i4ix'),
             vault: new PublicKey('A9yRKSx8SyqNdCtCMUgr6wDXUs1JmVFkVno6FcscSD6m'),
         },
         quote: {
@@ -22,8 +22,8 @@ export const marketPairs: SwapMarket[] =[
     {
         address: new PublicKey('FF2cofkAp3ELzd2KQtugxstDfw9TkGqEBJmGxPtB3hVU'),
         base: {
-            name: "BONK",
-            logo: "https://i.imgur.com/5raCsaq.png",
+            name: "CAPY",
+            logo: "https://i.imgur.com/FAsGdjU.png",
             mint: new PublicKey('6zz62u9yEoZTe2efnnCyyHx5UUaPiThCngVxdYi8i4ix'),
             vault: new PublicKey('EdukFLbSRoMyVreLYiZAGMccNNN9VDmgWXnk5PNu85iK'),
         },
