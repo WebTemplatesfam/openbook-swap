@@ -9,7 +9,7 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-const endpoint = '<RPC URL>';
+const endpoint = 'https://mainnet.helius-rpc.com/?api-key=3fa7b09a-0f43-469a-a640-368f2ad29afe';
 const wallets = [
   new PhantomWalletAdapter()
 ];
