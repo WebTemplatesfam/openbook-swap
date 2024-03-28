@@ -3,24 +3,7 @@ import { PublicKey } from "@solana/web3.js";
 
 export const marketPairs: SwapMarket[] =[
     {
-        address: new PublicKey('8PhnCfgqpgFM7ZJvttGdBVMXHuU4Q23ACxCvWkbs1M71'),
-        base: {
-            name: "CAPY",
-            logo: "https://i.imgur.com/FAsGdjU.png",
-            mint: new PublicKey('6zz62u9yEoZTe2efnnCyyHx5UUaPiThCngVxdYi8i4ix'),
-            vault: new PublicKey('A9yRKSx8SyqNdCtCMUgr6wDXUs1JmVFkVno6FcscSD6m'),
-        },
-        quote: {
-            name: "USDC",
-            logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Circle_USDC_Logo.svg/512px-Circle_USDC_Logo.svg.png",
-            mint: new PublicKey('EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v'),
-            vault: new PublicKey('D9dojzvwJGs4q3Cx8ytvD8kWVVZszoVKvPZEZ5D8PV1Y'),
-        },
-        minBase: 1000,
-        swapMargin: 0.0004
-    },
-    {
-        address: new PublicKey('FF2cofkAp3ELzd2KQtugxstDfw9TkGqEBJmGxPtB3hVU'),
+        address: new PublicKey('DboZUDQE6up8rjsiYjpSHGR6f7DWFsDUJyyhWgCa4Jqe'),
         base: {
             name: "CAPY",
             logo: "https://i.imgur.com/FAsGdjU.png",
